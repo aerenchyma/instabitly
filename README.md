@@ -40,6 +40,8 @@ Type in the appropriate things when prompted. There you go!
 
 ##**options**
 
+That is to say, things you can do with this very easily if you want to, but certainly don't have to.
+
 Save your Instapaper email and password, if it is insecure enough that you don't mind saving it in plain text on your computer (or hell, encrypt it, I guess...) and save it in your ```secure_info_instabitly.py``` file. 
 
 Comment out the lines:
