@@ -1,4 +1,4 @@
-#### instabitly
+###instabitly
 
 ... is a command-line script in Python to import any links you've saved in [Instapaper](http://www.instapaper.com) to [bit.ly](http://www.bitly.com). 
 
@@ -10,7 +10,7 @@ It's also a recent development because this was functionality I wanted, so it'll
 
 *<small>Instapaper does not allow you to search links you've saved without a subscription. This costs money and requires you to be able to pay via PayPal/by card online. However, it costs only $3/3 months, so effectively $1/month, and is worth it if the service is valuable to you. It's awesome software and I thoroughly support [supporting it](http://www.instapaper.com/subscription)! That said, I wanted this for other reasons. And thus.</small>
 
-#### requirements
+###requirements
 
 To run this script as-is, you must have a file ```secure_info_instabitly.py``` in the same directory as the script, which need contain only one line:
 
@@ -18,7 +18,7 @@ To run this script as-is, you must have a file ```secure_info_instabitly.py``` i
 
 You can acquire an oauth token for the bit.ly APIs [here](https://bitly.com/a/oauth_apps) (again, assuming you have a _bit.ly_ account), and find their API documentation (which is awesome) [here](http://dev.bitly.com/links.html).
 
-#### to run
+###to run
 
 ```cd``` to the directory you've saved this script in and run:
 
@@ -29,7 +29,7 @@ python instapaper_to_bitly.py
 Type in the appropriate things when prompted. There you go!
 
 
-#### options
+###options
 
 Save your Instapaper email and password, if it is insecure enough that you don't mind saving it in plain text on your computer (or hell, encrypt it, I guess...) and save it in your ```secure_info_instabitly.py``` file. 
 
@@ -52,7 +52,7 @@ or whatever you've made the variables be. (Let me know if this is confusing. Rea
 
 If you want to see the links you're saving in the console, uncomment the line ```#print "Just saved: ", link```. Probably not worth it, but hey.
 
-#### TODOS and things to note
+###TODOS and things to note
 
 * Neater and more comprehensive error checking 
 (it's currently really messy)
@@ -64,12 +64,13 @@ _this script currently cycles through all of your most recent 2000 (or fewer, if
 
 _it's not the fastest thing in the_ whole world, _but it doesn't take too long and for the moment that's okay._
 
-#### license
+###license
 
 This script is licensed under the [MIT license](http://opensource.org/licenses/MIT):
 
 <small>
 **The MIT License (MIT)**
+
 Copyright (c) 2013 [aerenchyma](http://github.com/aerenchyma)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
