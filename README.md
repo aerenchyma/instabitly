@@ -2,7 +2,7 @@
 
 ... is a command-line script in Python to import any links you've saved in [Instapaper](http://www.instapaper.com) to [bit.ly](http://www.bitly.com). 
 
-It assumes you have an account on both sites and have saved a bunch of links in Instapaper that you now want saved in your bit.ly account, either for access to bit.ly stats and APIs with respect to the links, for shortened URLs, for searching without paying money*, or any other reason -- why else would you be running this?
+It assumes you have an account on both sites and have saved a bunch of links in Instapaper that you now want saved in your bit.ly account, either for access to bit.ly stats and APIs with respect to the links, for shortened URLs, for searching without paying money*, to store links you wish to save somewhat redundantly outside your bookmarks/Chrome syncing, or for any other reason -- why else would you be running this?
 
 It's heavily commented for those who want to know exactly how it works, in particular if you're new to Python/programming. 
 
